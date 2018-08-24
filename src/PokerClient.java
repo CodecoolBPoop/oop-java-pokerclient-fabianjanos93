@@ -15,7 +15,6 @@ public class PokerClient {
     }
 
     public boolean highestCardIsMine(String p1, String p2, String p3, String p4, String p5) {
-        Card hc = new Card("s2");
         List<Card> myCard = new ArrayList<Card>();
         myCard.add(new Card(p1));
         myCard.add(new Card(p2));
